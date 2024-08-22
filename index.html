@@ -42,19 +42,21 @@
   </head>
   <body class="font-manrope">
     <header class="bg-gradient-to-b from-[#F4F4F4] to-white">
-      <section class="mx-auto my-0 h-[200px] w-[90%] max-w-[1140px]">
+      <section
+        class="mx-auto my-0 w-[90%] max-w-[1140px] py-8 md:py-10 lg:py-12"
+      >
         <div class="navbar justify-between p-0">
           <div class="navbar-start w-auto">
             <div
               class="flex h-8 w-8 items-center justify-center rounded-[50%] bg-[#ABEF5F] p-2"
             >
-              <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+              <img src="images/icons/arrow-top-right-black.svg" alt="" />
             </div>
             <a class="ml-2 text-3xl font-extrabold text-[#212121]">Rinterio</a>
           </div>
           <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal font-base px-1">
-              <li class="font-extrabold"><a>Home</a></li>
+            <ul class="menu menu-horizontal font-base px-1 text-[#737373]">
+              <li class="font-extrabold text-[#494949]"><a>Home</a></li>
               <li><a>Services</a></li>
               <li><a>Portfolio</a></li>
               <li><a>Blogs</a></li>
@@ -63,74 +65,18 @@
           </div>
           <div class="navbar-end w-auto space-x-4">
             <button class="btn btn-circle hidden bg-white md:inline-flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-              >
-                <path
-                  d="M17.5062 17.5098L22.0047 22.0113"
-                  stroke="#737373"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M20.0084 11.0104C20.01 6.03982 15.982 2.00904 11.0114 2.00739C6.04079 2.00573 2.01001 6.03383 2.00836 11.0044C2.00671 15.975 6.03481 20.0057 11.0054 20.0074C15.976 20.009 20.0067 15.981 20.0084 11.0104Z"
-                  stroke="#737373"
-                  stroke-width="1.5"
-                  stroke-linejoin="round"
-                />
-              </svg>
+              <img src="images/icons/search.svg" alt="" />
             </button>
             <button class="btn btn-circle hidden bg-white md:inline-flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-              >
-                <path
-                  d="M8.00673 16.028L15.2699 16.0304C19.7575 16.0319 20.441 13.2129 21.27 9.1015C21.5092 7.91561 21.6288 7.32267 21.3419 6.92751C21.0549 6.53235 20.5046 6.53216 19.404 6.5318L6.00989 6.52734"
-                  stroke="#737373"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M8.0067 16.0282L5.38958 3.54225C5.16729 2.65184 4.36753 2.02698 3.4498 2.02668L2.51135 2.02637"
-                  stroke="#737373"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M8.88671 16.0283L8.47528 16.0282C7.11193 16.0277 6.00633 17.1786 6.00586 18.5987C6.00578 18.8354 6.18992 19.0274 6.41715 19.0275L17.5057 19.0312"
-                  stroke="#737373"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M10.5047 22.0288C11.3331 22.0291 12.0049 21.3577 12.0052 20.5293C12.0055 19.7009 11.3341 19.0291 10.5057 19.0288C9.67725 19.0285 9.00545 19.6999 9.00518 20.5283C9.0049 21.3567 9.67625 22.0285 10.5047 22.0288Z"
-                  stroke="#737373"
-                  stroke-width="1.5"
-                />
-                <path
-                  d="M17.5047 22.0313C18.3331 22.0315 19.0049 21.3602 19.0052 20.5318C19.0055 19.7033 18.3341 19.0315 17.5057 19.0313C16.6772 19.031 16.0055 19.7023 16.0052 20.5308C16.0049 21.3592 16.6763 22.031 17.5047 22.0313Z"
-                  stroke="#737373"
-                  stroke-width="1.5"
-                />
-              </svg>
+              <img src="images/icons/shopping-cart.svg" alt="" />
             </button>
             <a
-              class="btn hidden rounded-[32px] bg-[#ABEF5F] text-xl font-extrabold md:inline-flex"
+              class="btn hidden rounded-3xl bg-[#ABEF5F] text-xl font-extrabold md:inline-flex"
               >Book Consult
               <div
-                class="flex h-8 w-8 items-center justify-center rounded-[50%] bg-[#1C1C1C] p-2 text-white"
+                class="flex h-8 w-8 items-center justify-center rounded-[50%] bg-[#1C1C1C] p-2"
               >
-                <i class="fa-solid fa-arrow-up-long rotate-45"></i></div
+                <img src="images/icons/arrow-top-right-white.svg" alt="" /></div
             ></a>
             <div class="dropdown">
               <div
@@ -138,27 +84,13 @@
                 role="button"
                 class="btn btn-circle bg-white lg:hidden"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                >
-                  <path
-                    d="M3.75793 6.875H20.2579M3.75793 12.125H20.2579M3.75793 17.375H20.2579"
-                    stroke="#737373"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+                <img src="images/icons/Frame.svg" alt="" />
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box right-0 z-[1] mt-3 w-52 p-2 shadow"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box right-0 z-[1] mt-3 w-52 p-2 text-[#737373] shadow"
               >
-                <li class="font-extrabold"><a>Home</a></li>
+                <li class="font-extrabold text-[#494949]"><a>Home</a></li>
                 <li><a>Services</a></li>
                 <li><a>Portfolio</a></li>
                 <li><a>Blogs</a></li>
@@ -166,6 +98,34 @@
               </ul>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="mx-auto my-0 w-[90%] max-w-[1140px]">
+        <img
+          class="mx-auto mb-4 w-3/4 md:w-1/2 lg:mb-6"
+          src="images/banner.png"
+          alt=""
+        />
+        <h1
+          class="mx-auto mb-4 text-center text-3xl font-extrabold text-[#212121] md:text-4xl lg:mb-6 lg:text-6xl"
+        >
+          A barn house of this design has a striking appearance
+        </h1>
+        <p
+          class="mx-auto mb-6 w-full text-center text-base font-medium text-[#494949] md:w-3/4 lg:mb-8 lg:w-5/6"
+        >
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+        <div class="mb-10 text-center md:mb-16 lg:mb-24">
+          <a class="btn rounded-3xl bg-[#abef5f80] text-xl font-extrabold"
+            >View Details
+            <div
+              class="flex h-8 w-8 items-center justify-center rounded-[50%] bg-[#ABEF5F] p-2"
+            >
+              <img src="images/icons/arrow-top-right-black.svg" alt="" /></div
+          ></a>
         </div>
       </section>
     </header>
