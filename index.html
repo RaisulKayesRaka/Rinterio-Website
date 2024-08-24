@@ -73,7 +73,7 @@
               <img src="images/icons/shopping-cart.svg" alt="" />
             </button>
             <a
-              class="btn hidden rounded-3xl bg-[#ABEF5F] text-xl font-extrabold md:inline-flex"
+              class="btn hidden rounded-3xl border-0 bg-[#ABEF5F] text-xl font-extrabold md:inline-flex"
               >Book Consult
               <div
                 class="flex h-8 w-8 items-center justify-center rounded-[50%] bg-[#1C1C1C] p-2"
@@ -123,7 +123,8 @@
           large windows that flood the space with natural light.
         </p>
         <div class="mb-10 text-center md:mb-16 lg:mb-24">
-          <a class="btn rounded-3xl bg-[#abef5f80] text-xl font-extrabold"
+          <a
+            class="btn border-1 rounded-3xl border-[#ABEF5F] bg-[#abef5f80] text-xl font-extrabold"
             >View Details
             <div
               class="flex h-8 w-8 items-center justify-center rounded-[50%] bg-[#ABEF5F] p-2"
@@ -363,7 +364,7 @@
         </section>
       </section>
 
-      <!-- Portfolio section -->
+      <!-- Portfolio section-->
       <section class="bg-[#F4F4F4] lg:bg-white">
         <div class="mx-auto my-0 w-[90%] max-w-[1140px] pb-8 md:pb-16 lg:py-24">
           <div class="mb-4 text-center">
@@ -390,16 +391,18 @@
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
           <div
-            class="grid grid-cols-12 gap-4 md:grid-rows-[auto_230px_auto_230px] md:gap-5 lg:grid-rows-[auto_auto] lg:gap-6"
+            class="grid grid-cols-12 gap-4 md:grid-rows-[1fr_1fr_auto_1fr] md:gap-5 lg:grid-rows-[1fr_1fr] lg:gap-6"
           >
             <!-- 1 -->
             <div
               class="col-span-12 rounded-2xl border border-solid border-[#E9E9E9] bg-white p-6 lg:order-1 lg:col-span-8"
             >
-              <div class="flex h-full flex-col gap-6 md:flex-row">
-                <div class="md:max-h-[180px] md:w-[260px]">
+              <div class="flex flex-col gap-6 md:flex-row">
+                <div
+                  class="rounded-2xl bg-cover bg-center md:w-1/3 md:bg-[url(images/img1.jpg)]"
+                >
                   <img
-                    class="h-full w-full rounded-2xl object-cover"
+                    class="h-full w-full rounded-2xl md:hidden"
                     src="images/img1.jpg"
                     alt=""
                   />
@@ -439,9 +442,11 @@
             <div
               class="col-span-12 rounded-2xl border border-solid border-[#E9E9E9] bg-white p-6 md:col-span-6 lg:order-2 lg:col-span-4"
             >
-              <div class="h-full md:max-h-[180px]">
+              <div
+                class="h-full w-full rounded-2xl bg-cover bg-center md:bg-[url(images/img2.jpg)]"
+              >
                 <img
-                  class="h-full w-full rounded-2xl object-cover"
+                  class="h-full w-full rounded-2xl md:hidden"
                   src="images/img2.jpg"
                   alt=""
                 />
@@ -452,9 +457,11 @@
             <div
               class="col-span-12 rounded-2xl border border-solid border-[#E9E9E9] bg-white p-6 md:col-span-6 lg:hidden"
             >
-              <div class="h-full">
+              <div
+                class="h-full w-full rounded-2xl bg-cover bg-center md:bg-[url(images/img5.jpg)]"
+              >
                 <img
-                  class="h-full w-full rounded-2xl object-cover"
+                  class="h-full w-full rounded-2xl md:hidden"
                   src="images/img5.jpg"
                   alt=""
                 />
@@ -465,10 +472,12 @@
             <div
               class="col-span-12 rounded-2xl border border-solid border-[#E9E9E9] bg-white p-6 lg:order-4 lg:col-span-6"
             >
-              <div class="flex h-full flex-col gap-6 md:flex-row">
-                <div class="md:w-[260px]">
+              <div class="flex flex-col gap-6 md:flex-row">
+                <div
+                  class="rounded-2xl bg-cover bg-center md:w-1/3 md:bg-[url(images/img3.jpg)] lg:w-1/2"
+                >
                   <img
-                    class="h-full w-full rounded-2xl object-cover"
+                    class="h-full w-full rounded-2xl md:hidden"
                     src="images/img3.jpg"
                     alt=""
                   />
@@ -507,9 +516,11 @@
             <div
               class="col-span-12 rounded-2xl border border-solid border-[#E9E9E9] bg-white p-6 md:col-span-6 lg:order-3 lg:col-span-3"
             >
-              <div class="h-full">
+              <div
+                class="h-full w-full rounded-2xl bg-cover bg-center md:bg-[url(images/img4.jpg)]"
+              >
                 <img
-                  class="h-full w-full rounded-2xl object-cover"
+                  class="h-full w-full rounded-2xl md:hidden"
                   src="images/img4.jpg"
                   alt=""
                 />
@@ -520,9 +531,11 @@
             <div
               class="col-span-12 rounded-2xl border border-solid border-[#E9E9E9] bg-white p-6 md:col-span-6 lg:order-5 lg:col-span-3"
             >
-              <div class="h-full">
+              <div
+                class="h-full w-full rounded-2xl bg-cover bg-center md:bg-[url(images/img5.jpg)]"
+              >
                 <img
-                  class="h-full w-full rounded-2xl object-cover"
+                  class="h-full w-full rounded-2xl md:hidden"
                   src="images/img5.jpg"
                   alt=""
                 />
@@ -799,7 +812,7 @@
               class="w-full rounded-3xl p-5 text-[#A0A0A0] md:col-span-2"
             ></textarea>
             <a
-              class="btn rounded-3xl bg-[#ABEF5F] text-xl font-extrabold md:col-span-2"
+              class="btn rounded-3xl border-0 bg-[#ABEF5F] text-xl font-extrabold md:col-span-2"
               >Send Mail
               <div
                 class="flex h-8 w-8 items-center justify-center rounded-[50%] bg-[#1C1C1C] p-2"
@@ -830,7 +843,7 @@
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
-          <div class="py-8 md:mx-auto md:w-[90%] md:py-12 lg:w-[80%]">
+          <div class="py-8 md:mx-auto md:w-[80%] md:py-12">
             <ul
               class="flex flex-col items-center justify-between gap-8 text-[#E9E9E9] md:flex-row"
             >
@@ -843,7 +856,7 @@
           </div>
           <div class="px-1 text-center">
             <a
-              class="btn w-full rounded-3xl bg-[#ABEF5F] text-xl font-extrabold md:w-auto"
+              class="btn w-full rounded-3xl border-0 bg-[#ABEF5F] text-xl font-extrabold md:w-auto"
               >Book Consult
               <div
                 class="flex h-8 w-8 items-center justify-center rounded-[50%] bg-[#1C1C1C] p-2"
